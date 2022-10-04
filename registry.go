@@ -18,13 +18,13 @@ import (
 	"errors"
 	"math/big"
 
+	"github.com/benny-conn/go-ens/contracts/auctionregistrar"
+	"github.com/benny-conn/go-ens/contracts/registry"
+	"github.com/benny-conn/go-ens/util"
 	"github.com/ethereum/go-ethereum/accounts"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/wealdtech/go-ens/v3/contracts/auctionregistrar"
-	"github.com/wealdtech/go-ens/v3/contracts/registry"
-	"github.com/wealdtech/go-ens/v3/util"
 )
 
 // Registry is the structure for the registry contract

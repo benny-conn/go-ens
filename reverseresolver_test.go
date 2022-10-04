@@ -17,10 +17,10 @@ package ens_test
 import (
 	"testing"
 
+	ens "github.com/benny-conn/go-ens"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/ethclient"
 	"github.com/stretchr/testify/require"
-	ens "github.com/wealdtech/go-ens/v3"
 )
 
 // TestReverseResolve tests the reverse resolution functionality.

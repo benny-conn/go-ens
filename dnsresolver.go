@@ -18,10 +18,10 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/benny-conn/go-ens/contracts/dnsresolver"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/wealdtech/go-ens/v3/contracts/dnsresolver"
 	"golang.org/x/crypto/sha3"
 )
 

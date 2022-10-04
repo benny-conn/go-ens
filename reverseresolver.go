@@ -18,9 +18,9 @@ import (
 	"errors"
 	"fmt"
 
+	"github.com/benny-conn/go-ens/contracts/reverseresolver"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/wealdtech/go-ens/v3/contracts/reverseresolver"
 )
 
 // ReverseResolver is the structure for the reverse resolver contract
